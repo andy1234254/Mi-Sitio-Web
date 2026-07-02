@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Profesional</title>
+    <meta name="description" content="Portafolio moderno y dinámico de un programador profesional" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-image">
+        <div class="portrait-frame">
+          <div class="portrait-placeholder">
+            <span>Tu foto</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Programador Full-Stack</p>
+        <h1 id="hero-name">Nombre Apellido</h1>
+        <p class="hero-subtitle" id="hero-description">
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contacto" class="btn btn-secondary">Contactar</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="top-nav">
+      <a href="#sobre-mi" class="nav-link active">Sobre mí</a>
+      <a href="#habilidades" class="nav-link">Habilidades</a>
+      <a href="#proyectos" class="nav-link">Proyectos</a>
+      <a href="#contacto" class="nav-link">Contactos</a>
+    </nav>
+
+    <main>
+      <section id="sobre-mi" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Sobre mí</p>
+          <h2>Construyo experiencias digitales con enfoque en rendimiento y diseño.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="card card-large">
+            <p id="about-copy">
+              Soy un desarrollador apasionado por convertir ideas complejas en productos claros,
+              rápidos y atractivos para el usuario.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Enfoque actual</h3>
+            <ul>
+              <li>Diseño de interfaces responsivas</li>
+              <li>Arquitectura limpia y escalable</li>
+              <li>Optimización de experiencias web</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Habilidades</p>
+          <h2>Un stack versátil para crear soluciones completas.</h2>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+      </section>
+
+      <section id="proyectos" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Proyectos</p>
+          <h2>Proyectos que mezclan estrategia, tecnología y estética.</h2>
+        </div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </section>
+
+      <section id="contacto" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Contactos</p>
+          <h2>Disponible para colaborar en nuevos retos digitales.</h2>
+        </div>
+        <div class="contact-card">
+          <p id="contact-copy"></p>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
