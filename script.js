@@ -18,10 +18,13 @@ const skills = [
   { name: 'Postman', icon: 'postman.svg', level: 40 },
   { name: 'Visual Studio Code', icon: 'visualcode.svg', level: 85 },
   { name: 'Visual Studio', icon: 'visualstudio.svg', level: 87 },
+  { name: 'Android Studio', icon: 'androidstudio.svg', level: 40 },
   { name: 'Windows', icon: 'windows.svg', level: 90 },
   { name: 'Ubuntu', icon: 'ubuntu.svg', level: 70 },
   { name: 'Android', icon: 'android.svg', level: 83 },
   { name: 'Web Development', icon: 'webdev.svg', level: 76 },
+  { name: 'Gemini', icon: 'gemini.svg', level: 93 },
+  { name: 'GitHub Copilot', icon: 'copilot.svg', level: 90 },
   { name: 'Frontend', icon: 'fronted.svg', level: 86 },
   { name: 'Backend', icon: 'backend.svg', level: 75 },
   { name: 'Español', icon: 'ecuador.svg', level: 100 },
@@ -55,7 +58,7 @@ const profile = {
   name: 'Andy Sangoquiza',
   title: '“Cualquier tecnología suficientemente avanzada es indistinguible de la magia”',
   author: 'Arthur C. Clarke',
-  about: 'Soy un desarrollador con experiencia en interfaces modernas, arquitectura de software y soluciones orientadas al usuario. Me enfoco en crear productos que sean rápidos, visualmente sólidos y fáciles de escalar.',
+  about: 'Soy un desarrollador con experiencia en interfaces modernas, arquitectura de software y soluciones orientadas al usuario. Me enfoco en crear productos que sean rápidos, visualmente sólidos y fáciles de escalar. Tengo experiencia programando en empresas, negocios y proyectos personales, entre los que incluye apps mobiles, de escritorio y web. Veo los retos y problemas como oportunidades para aprender, mejorar y optimizar experiencias digitales. Me agrada trabajar en un ambiente de confianza y respeto con el cliente y compañeros',
   contact: 'Estoy listo para colaborar en startups, equipos de producto o proyectos freelance. Escribeme y hablemos de tu próxima idea.'
 };
 
