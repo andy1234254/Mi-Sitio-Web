@@ -9,11 +9,11 @@ const skills = [
   { name: 'PHP', icon: 'php.svg', level: 68 },
   { name: 'MySQL', icon: 'mysql.svg', level: 83 },
   { name: 'Firebase', icon: 'firebase.svg', level: 79 },
-  { name: 'Redis', icon: 'redis.svg', level: 40 },
+  { name: 'Redis', icon: 'redis.svg', level: 30 },
   { name: 'Django', icon: 'django.svg', level: 73 },
   { name: '.NET Framework', icon: 'netframework.svg', level: 82 },
-  { name: 'Node.js', icon: 'nodejs.svg', level: 65 },
-  { name: 'Laravel', icon: 'laravel.svg', level: 30 },
+  { name: 'Node.js', icon: 'nodejs.svg', level: 60 },
+  { name: 'Laravel', icon: 'laravel.svg', level: 20 },
   { name: 'Git', icon: 'git.svg', level: 78 },
   { name: 'Postman', icon: 'postman.svg', level: 40 },
   { name: 'Visual Studio Code', icon: 'visualcode.svg', level: 85 },
@@ -28,31 +28,31 @@ const skills = [
   { name: 'Gemini', icon: 'gemini.svg', level: 93 },
   { name: 'GitHub Copilot', icon: 'copilot.svg', level: 90 },
   { name: 'Frontend', icon: 'fronted.svg', level: 86 },
-  { name: 'Backend', icon: 'backend.svg', level: 75 },
+  { name: 'Backend', icon: 'backend.svg', level: 70 },
   { name: 'Español', icon: 'ecuador.svg', level: 100 },
   { name: 'Ingles', icon: 'usa.svg', level: 50 }
 ];
 
 const projects = [
   {
-    title: 'Plataforma de analítica',
+    title: 'GYM SECRET MOBILE',
     description: 'Dashboard interactivo para seguimiento de métricas en tiempo real.',
-    tags: ['React', 'D3', 'Node']
+    tags: ['.NET MAUI 10', 'C#', 'XAML', 'SQLite', 'FIREBASE']
   },
   {
-    title: 'Marketplace creativo',
+    title: 'CAVAMYM SYSTEM',
     description: 'Experiencia de compra con diseño premium y flujo optimizado.',
-    tags: ['Next.js', 'Tailwind', 'Stripe']
+    tags: ['Java', 'JavaSwing', 'MySQL']
   },
   {
-    title: 'Asistente IA interno',
+    title: 'ACADEMIC SYSTEM',
     description: 'Herramienta para automatizar procesos y responder consultas de negocio.',
-    tags: ['Python', 'OpenAI', 'FastAPI']
+    tags: ['Django', 'Vue.js', 'MySQL', 'HTML', 'JavaScript', 'Python']
   },
   {
-    title: 'App de gestión',
+    title: 'PROYECTOS PERSONALES',
     description: 'Sistema modular para controlar equipos, tareas y reportes operativos.',
-    tags: ['Vue', 'Express', 'PostgreSQL']
+    tags: ['Mediapipe', 'Laravel', 'PHP', 'IA', 'TailwindCSS']
   }
 ];
 
