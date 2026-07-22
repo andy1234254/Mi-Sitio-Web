@@ -4,14 +4,17 @@ const skills = [
   { name: 'Java', icon: 'java.svg', level: 83 },
   { name: 'JavaScript', icon: 'javascript.svg', level: 66 },
   { name: 'JavaSwing', icon: 'javaswing.svg', level: 80 },
+  { name: 'TypeScript', icon: 'typescript.svg', level: 45 },
   { name: 'HTML', icon: 'html.svg', level: 78 },
   { name: 'CSS', icon: 'css.svg', level: 70 },
   { name: 'XAML', icon: 'xaml.svg', level: 80 },
+  { name: 'Vite', icon: 'vite.svg', level: 50 },
   { name: 'PHP', icon: 'php.svg', level: 68 },
   { name: 'MySQL', icon: 'mysql.svg', level: 83 },
   { name: 'Firebase', icon: 'firebase.svg', level: 79 },
   { name: 'Redis', icon: 'redis.svg', level: 30 },
   { name: 'Django', icon: 'django.svg', level: 73 },
+  { name: 'React', icon: 'react.svg', level: 63 },
   { name: '.NET Framework', icon: 'netframework.svg', level: 82 },
   { name: 'Node.js', icon: 'nodejs.svg', level: 60 },
   { name: 'Laravel', icon: 'laravel.svg', level: 20 },
@@ -25,6 +28,7 @@ const skills = [
   { name: 'Ubuntu', icon: 'ubuntu.svg', level: 70 },
   { name: 'Android', icon: 'android.svg', level: 83 },
   { name: 'VirtualBox', icon: 'virtualbox.svg', level: 72 },
+  { name: 'Vercel', icon: 'vercel.svg', level: 58 },
   { name: 'Web Development', icon: 'webdev.svg', level: 76 },
   { name: 'Gemini', icon: 'gemini.svg', level: 93 },
   { name: 'GitHub Copilot', icon: 'copilot.svg', level: 90 },
@@ -37,21 +41,21 @@ const skills = [
 const projects = [
   {
     title: 'GYM SECRET MOBILE',
-    description: 'Realizado para la organización y administración de un gimnasio (disponible solo para Android), incluyendo el registro de miembros, perfiles personales con fotos, credenciales y seguimiento de asistencia diaria; registro de productos; control de ingresos y gastos; tienda de productos; y cierre mensual. Admite tanto el uso sin conexión como en línea, empleando SQLite para el almacenamiento local y Firebase para el almacenamiento remoto.',
+    description: 'Diseñado y aplicado para la administracion de un gimansio del mismo nombre, incluyendo el registro de miembros, perfiles personales con fotos, credenciales y seguimiento de asistencia diaria; registro de productos; control de ingresos y gastos; tienda de productos; y cierre mensual. Admite tanto el uso sin conexión(SQLite) como en línea(Firebase). Solventando la perdida de registros y usuarios.',
     tags: ['.NET MAUI 10', 'C#', 'XAML', 'SQLite', 'FIREBASE', 'Android'],
     image: 'images/personal/gymsecret.png',
     link: 'https://github.com/andy1234254/GYM_MOBILE'
   },
   {
     title: 'CAVAMYM SYSTEM',
-    description: 'Sistema de escritorio empresarial (privado) diseñado e implementado para gestionar productos, materias primas, ingresos, egresos, proveedores, personal y diversas operaciones administrativas especficas, incorporando validaciones de datos, controles de acceso y mecanismos de cifrado.',
+    description: 'Sistema de escritorio empresarial (privado) diseñado e implementado para solvetar la gestion de productos, materias primas, ingresos, egresos, proveedores, personal y diversas operaciones administrativas especficas, incorporando validaciones de datos, controles de acceso y mecanismos de cifrado. Mejorando la eficiencia y seguridad de las operaciones internas de la empresa, optimizando la gestión de recursos y la toma de decisiones estratégicas.',
     tags: ['Java', 'JavaSwing', 'MySQL', 'Windows'],
     image: 'images/personal/cavamym.png',
     link: null
   },
   {
     title: 'ACADEMIC SYSTEM',
-    description: 'Este proyecto consiste en un sistema basado en la web orientado a la gestión y administración académica, que implementa funcionalidades tales como registro de usuarios, inicio de sesión basado en módulos o permisos, control de asistencia, generación de horarios, notificaciones, medidas de seguridad de datos para los usuarios, envio de correos electronicos personalizados y exportaciones en .PDF',
+    description: 'Este proyecto consiste en un sistema web orientado a la gestión y administración académica, que implementa funcionalidades como registro de usuarios, inicio de sesión basado en módulos, control de asistencia, generación de horarios, notificaciones, envio de correos electronicos personalizados y exportaciones en .PDF. Brindo una optimizacion y organizacion entre estudiantes, docentes y personal administrativo.',
     tags: ['Django', 'Vue.js', 'MySQL', 'HTML', 'JavaScript', 'Python', 'Pagina Web'],
     image: 'images/personal/academic.png',
     link: 'https://github.com/andy1234254/ACADEMIC_SYSTEM_WEB'
@@ -59,7 +63,7 @@ const projects = [
   {
     title: 'PROYECTOS PERSONALES',
     description: 'Proyectos y repositorios personales interesantes, creativos y desafiantes, diseñados con el objetivo de aprender nuevas tecnologias, mejorar habilidades de programación y explorar conceptos innovadores. ',
-    tags: ['Mediapipe', 'Laravel', 'PHP', 'IA', 'TailwindCSS'],
+    tags: ['Mediapipe', 'Laravel', 'PHP', 'IA', 'TailwindCSS', 'React'],
     image: 'images/personal/personales.png',
     link: 'https://github.com/andy1234254?tab=repositories'
   }
@@ -69,7 +73,7 @@ const profile = {
   name: 'Andy Sangoquiza',
   title: '“Cualquier tecnología suficientemente avanzada es indistinguible de la magia”',
   author: 'Arthur C. Clarke',
-  about: 'Soy un desarrollador con experiencia en interfaces modernas, arquitectura de software y soluciones orientadas al usuario. Me enfoco en crear productos que sean rápidos, visualmente sólidos y fáciles de escalar. Tengo experiencia programando en empresas, negocios y proyectos personales, entre los que incluye apps mobiles, de escritorio y web. Veo los retos y problemas como oportunidades para aprender, mejorar y optimizar experiencias digitales. Me agrada trabajar en un ambiente de confianza y respeto con el cliente y compañeros'
+  about: 'Soy un desarrollador con experiencia en interfaces modernas, arquitectura de software y soluciones orientadas al usuario. Me enfoco en crear productos que sean rápidos, visualmente sólidos y fáciles de escalar. Tengo experiencia programando en pequeñas empresas, negocios y proyectos personales, entre los que incluye apps mobiles, de escritorio y web. Veo los retos y problemas como oportunidades para aprender, mejorar y optimizar experiencias digitales. Me agrada trabajar en un ambiente de confianza y respeto con el cliente y compañeros'
 };
 
 const mensajes = [
